@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Man_Babers",
+    "slug": "Man_Barber",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#B36500"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.baber.baberapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.baber.baberapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bde5d812-bb17-49c0-aa7e-601f92844e48"
+      }
+    }
+  }
+}
